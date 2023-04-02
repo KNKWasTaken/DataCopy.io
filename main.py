@@ -8,4 +8,4 @@ class MyClient(discord.Client):
         print ('message from {0.author} in {0.guild.name} in {0.channel}: {0.content}'.format(message))
 
 client = MyClient()
-client.run('OTU1ODM4MjI5NDY1MTY1ODM4.YjnfuA.fNfbm8wXfiF-amlJ-K8Kf6z2LoI')
+client.run('{Your-Secret}')
